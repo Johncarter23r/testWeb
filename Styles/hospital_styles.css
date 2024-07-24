@@ -139,6 +139,10 @@ nav ul li a:hover {
         margin: 120px 10px 10px 10px;
         width: 95%;
     }
+
+    .hospital-info {
+        padding: 10px 5px;
+    }
 }
 
 /* Style for the treatments heading */
@@ -214,22 +218,10 @@ nav ul li a:hover {
 }
 
 /* Style for the contact information */
-/* Style for the contact information */
-.hospital-info {
-    background-color: #2e2e2e;
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 5px;
-    position: relative;
-    /* Ensure relative positioning for absolute children */
-}
-
 .contact-info {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
     background-color: #444444;
     padding: 10px;
     border-radius: 5px;
     color: #ffffff;
+    margin-top: 10px;
 }
